@@ -1,0 +1,49 @@
+# Telegram
+pyrofork==2.2.11
+tgcrypto==1.2.5
+pyromod==1.5.0
+pysocks==1.7.1
+
+# HTTP & Scraping
+requests==2.31.0
+cloudscraper
+aiohttp
+aiofiles
+urllib3==2.0.3
+beautifulsoup4
+soupsieve==2.4.1
+certifi
+charset-normalizer==3.3.2
+idna==3.6
+
+# Crypto & Security
+pycryptodome==3.18.0
+cryptography==42.0.5
+pyopenssl==24.1.0
+PyJWT==2.8.0
+
+# Media
+yt-dlp
+mutagen==1.46.0
+ffmpeg-python==0.2.0
+pillow==11.3.0
+m3u8==6.0.0
+pytube==15.0.0
+wget==3.2
+
+# Database
+motor
+pymongo
+umongo
+sqlalchemy
+async-lru==2.0.2
+
+# Web Server
+Flask
+gunicorn
+itsdangerous
+
+# Utilities
+pytz
+colorama
+reportlab
