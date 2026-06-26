@@ -895,7 +895,7 @@ async def txt_handler(bot: Client, m: Message):
                 url = url.split("bcov_auth")[0]+bcov
                            
             elif ("d1d34p8vz63oiq" in url or "sec1.pw.live" in url) and "anonymouspwplayer" not in url:
-    url = f"https://anonymouspwplayer-c95d81521328.herokuapp.com/pw?url={url}?token={raw_text4}"
+                url = f"https://anonymouspwplayer-c95d81521328.herokuapp.com/pw?url={url}?token={raw_text4}"
 
             if ".pdf*" in url:
                 url = f"https://dragoapi.vercel.app/pdf/{url}"
