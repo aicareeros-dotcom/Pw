@@ -17,7 +17,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6157862068"))
 ADMINS = [int(x) for x in os.environ.get("ADMINS", str(OWNER_ID)).split()]
 
 # Channel Configuration
-PREMIUM_CHANNEL = ""
+PREMIUM_CHANNEL = "-1004475879492"
 # Thumbnail Configuration
 THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "").split()))
 
