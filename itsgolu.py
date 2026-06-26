@@ -27,7 +27,7 @@ from urllib.parse import urljoin
 from vars import *  # Add this import
 from db import Database
 
-MP4DECRYPT = "/home/runner/workspace/bin/mp4decrypt"
+MP4DECRYPT = os.environ.get("MP4DECRYPT_PATH", "/usr/local/bin/mp4decrypt")
 
 
 
