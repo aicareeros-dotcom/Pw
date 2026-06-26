@@ -6,7 +6,7 @@ API_ID = int(os.environ.get("API_ID", "25105426"))
 API_HASH = os.environ.get("API_HASH", "d26c274c72a0cde1e7e157eec26f0226")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
-CREDIT = os.environ.get("CREDIT", "ONeX")
+CREDIT = os.environ.get("CREDIT", '<a href="https://t.me/Mr_Ghunawat01">Gʜᴜɴᴀᴡᴀᴛ_X</a>')
 # MongoDB Configuration
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "CpprivateApi")
 DATABASE_URL = os.environ.get("MONGO_URL", "mongodb+srv://ONeX_db_user:onexvartikuu142062@cluster0.ga3zort.mongodb.net/?appName=Cluster0")
