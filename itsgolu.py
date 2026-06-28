@@ -502,7 +502,7 @@ async def send_vid(bot: Client, m: Message, cc, filename, thumb, name, prog, cha
                 safe_text = text_to_draw.replace("'", "\\'")
 
                 text_cmd = (
-                    f'ffmpeg -i "{temp_thumb}" -vf '
+                    f'-frames:v 1 -c:v mjpeg -q:v 2 -y "{temp_thumb}"'
                     f'"drawbox=y=0:color=black@0.35:width=iw:height={box_h}:t=fill,'
                     f'drawtext=fontfile=font.ttf:text=\'{safe_text}\':fontcolor=white:'
                     f'fontsize={font_size}:x=(w-text_w)/2:y=(({box_h})-text_h)/2" '
